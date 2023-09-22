@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valgomat</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div class="Box">
+    <img src="bILDE/Removal-321.png" alt="bilde av rødt parti">
+<p class="Overskrift">VALGOMAT</p>
+</div>
+
+<h2 id="OverskriftButtons">Er du bekymret over de økende forskjellene i samfunnet?</h2>
+
+<center>
+<div onclick="OnClickButton()" class="Buttons">
+
+    <button id="EnigKnapp" onmousedown="EnigSum()" onmouseup="EnigUp()">Enig</button>
+    <button id="UsikkerKnapp" onmousedown="UsikkerSum()" onmouseup="UsikkerUp()">Usikker</button>
+    <button id="UenigKnapp" onmousedown="UenigSum()" onmouseup="UenigUp()">Uenig</button>
+    
+
+</div>
+
+</center>
+
+
+<div id="Progress_Status">
+    <div id="myProgressBar"></div>
+</div>
+
+<div id="kilder"> 
+    <h2>Informasjonen er hentet fra:</h2>
+    <a class="Kilde" href="//roedt.no/">Rødt sine sider</a>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
